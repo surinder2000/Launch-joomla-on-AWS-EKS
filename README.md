@@ -322,6 +322,8 @@ To launch the applicaton run the kustomization file, go to the directory where k
 
     kubectl create -k .
     
+![Joomla](https://github.com/surinder2000/Launch-joomla-on-AWS-EKS/blob/master/joomla.png)
+    
 To destroy the complete infrastructure use the following command
     
     kubectl create -k .
