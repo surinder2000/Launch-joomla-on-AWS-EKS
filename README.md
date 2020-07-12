@@ -326,7 +326,7 @@ To get the Load Balancer URL of the application run the following command
 
     kubectl get svc 
     
-After opening the link in the browser we can access our application
+By using that URL in the browser we can access our application
     
 ![Joomla](https://github.com/surinder2000/Launch-joomla-on-AWS-EKS/blob/master/joomla.png)
     
