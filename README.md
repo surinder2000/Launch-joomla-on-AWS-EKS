@@ -318,9 +318,13 @@ Put the following code in yaml file for creating a Kustomization file for launch
 
 By running the kustomization file complete application will get lauched. I will set permissions for EFS, create EFS provisioner, create storage class, create pvc for MySQL and Joomla, Create MySQL deployment and mount PVC at the specified path and create Joomla deployment, mount PVC at the specified path and expose it to outside by using ELB (Elastic Load Balancer) service
 
-To launch the applicaton run the kustomization file, go to the directory where kustomization file is saved and run the following command
+To launch the application run the kustomization file, go to the directory where kustomization file is saved and run the following command
 
     kubectl create -k .
+    
+To get the Load Balancer URL of the application run the following command
+
+    kubectl get svc 
     
 ![Joomla](https://github.com/surinder2000/Launch-joomla-on-AWS-EKS/blob/master/joomla.png)
     
